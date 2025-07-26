@@ -28,10 +28,14 @@ const Chatbot = () => {
     </div>
   );
 };
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Chatbot from './components/Chatbot';
+import React from "react";
 
-ReactDOM.createRoot(document.getElementById('root')).render(<Chatbot />);
+export default function Chatbot() {
+  return (
+    <div style={{ textAlign: "center", paddingTop: "100px" }}>
+      <h1>✅ School Chatbot is Working!</h1>
+      <p>This is a placeholder. Add your chatbot UI here.</p>
+    </div>
+  );
+}
 
-export default Chatbot;
